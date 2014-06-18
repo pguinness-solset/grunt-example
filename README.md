@@ -34,7 +34,7 @@ To install all needed Grunt plugins, run the following command from the root fol
 
 ### 2. Install Javascript dependencies
 
-Bower is being used for Javascript dependency management. Run the following command to install all dependencies into the `/bower_components` folder:
+Bower is used for Javascript dependency management. Run the following command to install all dependencies into the `/bower_components` folder:
 
     bower install
 
@@ -130,7 +130,7 @@ Specifies files that Git shouldn't commit to repository.
 
 #### .jshintrc
 
-Validation settings that JSHint should use when validating syntax. View [JSHint configuration options](http://www.jshint.com/docs/options/).
+Settings that JSHint should use when validating syntax. View [JSHint configuration options](http://www.jshint.com/docs/options/).
 
 #### bower.json
 
