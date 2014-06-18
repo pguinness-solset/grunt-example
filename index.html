@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title></title>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script type='text/javascript' src="/js/build/modernizr.min.js"></script>
+  </head>
+  <body ng-app="exampleApp">
+
+    <div class="container base-page" ng-controller="HomeController" ng-init="init();">
+      <h2>Sample application</h2>
+
+      <div ng-show="appInitialized">
+        <p>If the application was built successfully:</p>
+        <ul>
+          <li ng-class="{true: 'text-success'}[appInitialized]" ng-cloak><strong>This line will be green.</strong> (If this line is not green, you haven't compiled the CSS)</li>
+          <li><strong>You won't see anything below this line.</strong></li>
+        </ul>
+      </div>
+
+      <div ng-hide="appInitialized">
+        <h4 class="text-error">There were problems with the build of the application. Please ensure the following:</h4>
+
+        <ul>
+          <li>All dependencies have been installed with Grunt, Bower, and Bundler.</li>
+          <li>You have used Grunt to build all Javascript files.</li>
+          <li>You have used Compass to build the CSS.</li>
+          <li>You have read through the README file for this project and followed the <strong>Setup</strong> instructions.</li>
+        </ul>
+      </div>
+    </div>
+
+    <script type='text/javascript' src="/js/build/vendor.min.js"></script>
+    <script type='text/javascript' src="/js/build/scripts.min.js"></script>
+  </body>
+</html>

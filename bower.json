@@ -1,0 +1,24 @@
+{
+  "name": "newbie-hoa",
+  "version": "0.0.0",
+  "homepage": "https://github.com/solutionset/newbie-hoa",
+  "authors": [
+    "Patrick Guinness <patrick.guinness@solutionset.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "2.7.2",
+    "jquery": "2.1.0",
+    "angular": "1.2.16",
+    "angular-cache": "2.3.3",
+    "angular-animate": "~1.2.16"
+  }
+}
